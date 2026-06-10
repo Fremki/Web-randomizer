@@ -1,0 +1,74 @@
+body{
+    background-color:black;   
+}
+
+header{
+    color:rgb(107, 107, 107);
+    text-align: center;
+    font-size: 24px;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    gap: 20px;   
+}
+
+.Home a{
+    color:rgb(61, 61, 61);
+}
+
+#Click{
+    margin-top: 50px;
+    margin-left: 30px;
+
+    display: flex;
+    justify-content:center;
+}
+
+#Clicker{
+    width: 150px;
+    height: 70px;
+    font-size: 24px;
+    background-color: rgb(51, 51, 51);
+}
+
+#StartGame{
+    margin: 5px;
+    width: 300px;
+    height: 70px;
+    margin-left: 20px;
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+}
+
+#EnterNumber{
+    margin-left: 30px;
+    margin-top: 50px;
+
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+#numberInput{
+    font-size: 24px;
+    width: 334px;
+    height: 30px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+}
+
+#Submit{
+    font-size: 24px;
+    width: 100px;
+    height: 36px;
+    background-color: rgb(41, 41, 41);
+}
+
+#resultText{
+    font-size: 32px;
+
+    display: flex;
+    justify-content: center;
+}

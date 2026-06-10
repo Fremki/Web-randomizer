@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Web Page | Game</title>
+        <link rel="icon" href="photos/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Randomizer</h1>
+            <nav>
+                <div class="Home">
+                    <a href="index.html">HOME</a>
+                    <a href="game.html">GAME</a>
+                    <a href="user.html">ACCOUNT</a>
+                </div>
+            </nav>
+        </header>
+        
+        <div id="Click">
+            <button id="Clicker" onclick="generateNumber()">Generate number</button>
+            <p id="StartGame"></p>
+        </div>
+
+        <div id="EnterNumber">
+            <input type="text" id="numberInput" placeholder="Enter the number from 1 to 100">
+            <button id="Submit" onclick="checkNumber()">Submit</button>
+        </div>
+
+        <p id="resultText"></p>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,6 +1,7 @@
-const Start = "Number was generated!"
+const Start = "Number was generated! You have 5 chances"
 let randomNumber;
-let scance = 3;
+let scance = 5;
+let guessList = [];
 
 function generateNumber(){
     randomNumber = Math.floor(Math.random() * 100) + 1;
@@ -9,7 +10,7 @@ function generateNumber(){
         document.getElementById("numberInput").value = "";
         document.getElementById("resultText").textContent = "";
     }
-    scance = 3;
+    scance = 5;
 }
 
 function checkNumber(){
@@ -55,6 +56,7 @@ function checkNumber(){
             document.getElementById("resultText").style.color = "red";
             scance --;
             randomNumber = undefined;
+            document.getElementById("StartGame").textContent = "";
         }
 
         else if(scance < 0){
@@ -63,4 +65,12 @@ function checkNumber(){
             generateNumber();
         }
     }
+
+    let Nums = document.getElementById("numberInput").value;
+    guessList.push(Nums);
+
+    for(let i = 0; i < guessList.length; i++){
+        document.getElementById("Numbers").innerHTML = guessList[i] + "<br>";
+    }
+
 }

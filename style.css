@@ -101,3 +101,10 @@ header{
     font-size: 24px;
     color: rgb(107, 107, 107);
 }
+
+#Profile{
+    font-size: 24px;
+    color: rgb(77, 77, 77);
+    display:flex;
+    justify-self:center;
+}

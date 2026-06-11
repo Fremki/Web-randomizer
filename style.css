@@ -35,22 +35,6 @@ header{
     color:rgb(61, 61, 61);
 }
 
-#GuessesNum{
-    display: flex;
-    flex-direction: column;
-}
-
-#h3{
-    font-size: 24px;
-    color:rgb(247, 247, 247);
-    background-color: rgb(107, 107, 107);
-}
-
-#Numbers{
-    font-size: 24px;
-    color: rgb(107, 107, 107);
-}
-
 #GameStart{
     margin-top: 40px;
 
@@ -98,4 +82,22 @@ header{
 
     display: flex;
     justify-content: center;
+}
+
+#GuessesNum{
+    display: flex;
+    flex-direction: column;
+}
+
+#Tabel{
+    display: flex;
+    margin-left: 3%;
+
+    font-size: 24px;
+    color:rgb(78, 78, 78);
+}
+
+#Numbers{
+    font-size: 24px;
+    color: rgb(107, 107, 107);
 }

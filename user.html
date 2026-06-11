@@ -3,23 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <title>My Web Page | Account</title>
-        <link rel="icon" href="photos/favicon.ico">
-        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Photos/favicon.ico">
+        <link rel="stylesheet" href="Styles/user.css">
     </head>
 
     <body>
         <header>
             <h1>This is your account</h1>
             <nav>
-                <div class="Home">
-                    <a href="index.html">HOME</a>
-                    <a href="games/randomizer.html">GAME</a>
-                    <a href="user.html">ACCOUNT</a>
+                <div class="container">
+                    <ul class="navigation">
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">
+                                GAMES
+                            </a>
+                            <ul class="games">
+                                <li>
+                                    <a href="Games/randomizer.html">
+                                        Randomizer
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Games/tictactoe.html">
+                                        Tic-Tac-Toe
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="user.html">ACCOUNT</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
 
-        <div id="Profile">
+        <div id="profile">
             <h1>There you can find your stats <br>Non functional</h1>
         </div>
 

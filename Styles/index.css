@@ -1,0 +1,77 @@
+body{
+    background-color:black;
+}
+
+header{
+    color:rgb(107, 107, 107);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navigation a{
+    color:rgb(61, 61, 61);
+    text-decoration: none;
+}
+.dropdown{
+    position: relative;
+}
+
+.games{
+    display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+
+    background-color: rgb(20, 20, 20)
+}
+
+.dropdown:hover .games{
+    display: block;
+}
+
+.games li{
+    margin: 10px 0;
+}
+
+.Home{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Home a{
+    color:rgb(61, 61, 61);
+}
+
+.Description{
+    background-color: rgb(20, 20, 20);
+    width: 700px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px auto;
+
+    color:rgb(107, 107, 107);
+    font-size: 24px;
+}

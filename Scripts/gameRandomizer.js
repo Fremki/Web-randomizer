@@ -26,14 +26,14 @@ function controlList(){
         const img = document.createElement("img");
 
         if(guessList[i].type == "low"){
-                img.src ="photos/Maggiore.png";
+                img.src ="../photos/Maggiore.png";
         }
         else{
-            img.src ="photos/Minore.png";
+            img.src ="../photos/Minore.png";
         }
 
-        img.width = 20;
-        img.height = 20;
+        img.width = 40;
+        img.height = 40;
 
         li.appendChild(img);
         document.getElementById("Numbers").appendChild(li);
